@@ -10,5 +10,4 @@ fun main() {
     var menu: List<String>
     val mirror = playerName.reversed()
     println(mirror)
-
 }
