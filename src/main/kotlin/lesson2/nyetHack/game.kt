@@ -12,6 +12,8 @@ fun main(args: Array<String>) {
 
     // Состояние игрока
     printPlayerStatus(auraColor, isBlessed, name, healthStatus)
+
+    castFireball()
 }
 
 private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean): String {
@@ -50,4 +52,8 @@ private fun auraColor(
     val auraVisible = isBlessed && healthPoints > 50 || isImmortal
     val auraColor = if (auraVisible) "GREEN" else "NONE"
     return auraColor
+}
+
+private fun castFireball() {
+    println("A glass of Fireball springs into existence.")
 }
