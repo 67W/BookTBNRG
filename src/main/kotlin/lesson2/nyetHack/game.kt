@@ -52,6 +52,5 @@ private fun auraColor(
     return auraColor
 }
 
-private fun castFireball(numFireballs: Int = 2) {
+private fun castFireball(numFireballs: Int = 2) =
     println("A glass of Fireball springs into existence. (x$numFireballs)")
-}
