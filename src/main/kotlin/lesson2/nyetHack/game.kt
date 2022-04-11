@@ -22,5 +22,5 @@ fun main(args: Array<String>) {
         else -> "is in awful condition!"
     }
     // Состояние игрока
-    println(name + " " + healthStatus)
+    println("$name $healthStatus")
 }
